@@ -1,6 +1,10 @@
 set nocompatible              " be iMproved
 filetype off                  " required by Vundle
 
+if !isdirectory(expand("~/.vim/bundle/vundle/.git"))
+    !git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+endif
+
 " set the runtime path to include Vundle and initialize
 set runtimepath+=~/.vim/bundle/vundle
 
