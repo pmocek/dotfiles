@@ -1,3 +1,16 @@
+set nocompatible              " be iMproved
+filetype off                  " required by Vundle
+
+" set the runtime path to include Vundle and initialize
+set runtimepath+=~/.vim/bundle/vundle
+
+" Vundle-managed plugins
+call vundle#begin()
+Plugin 'gmarik/vundle'        " let Vundle manage Vundle
+call vundle#end()
+
+filetype plugin indent on     " required by Vundle
+
 :set tabstop=4
 :set shiftwidth=4
 :set expandtab
