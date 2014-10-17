@@ -11,11 +11,21 @@ set runtimepath+=~/.vim/bundle/vundle
 " Vundle-managed plugins
 call vundle#begin()
 Plugin 'gmarik/vundle'        " let Vundle manage Vundle
+
+Plugin 'altercation/vim-colors-solarized'
 Plugin 'elzr/vim-json'
 Plugin 'Valloric/YouCompleteMe'
 call vundle#end()
 
 filetype plugin indent on     " required by Vundle
+
+syntax enable
+if has('gui_running')
+  set background=light
+else
+  set background=dark
+endif
+colorscheme solarized
 
 :set tabstop=4
 :set shiftwidth=4
