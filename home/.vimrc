@@ -8,6 +8,7 @@ set runtimepath+=~/.vim/bundle/vundle
 call vundle#begin()
 Plugin 'gmarik/vundle'        " let Vundle manage Vundle
 Plugin 'elzr/vim-json'
+Plugin 'Valloric/YouCompleteMe'
 call vundle#end()
 
 filetype plugin indent on     " required by Vundle
