@@ -461,6 +461,7 @@ hdr_order   Date: From: Reply-to: Subject: To: Cc:
 #
 
 source ~/.mutt/muttrc-local.sesame	# config commands local to this site
+source ~/.mutt/mutt-colors-solarized-dark-16.muttrc # color scheme
 #source ~/.mutt/aliases      # alias definitions
 
 # EOF
