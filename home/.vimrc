@@ -12,6 +12,7 @@ set runtimepath+=~/.vim/bundle/vundle
 call vundle#begin()
 Plugin 'gmarik/vundle'        " let Vundle manage Vundle
 
+Plugin 'bling/vim-airline'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'hallison/vim-markdown'
