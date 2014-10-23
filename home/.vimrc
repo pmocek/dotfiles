@@ -15,9 +15,9 @@ Plugin 'gmarik/vundle'        " let Vundle manage Vundle
 Plugin 'bling/vim-airline'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'elzr/vim-json'
 Plugin 'hallison/vim-markdown'
 Plugin 'scrooloose/syntastic'
-Plugin 'elzr/vim-json'
 Plugin 'Valloric/YouCompleteMe'
 call vundle#end()
 
