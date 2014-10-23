@@ -13,6 +13,7 @@ call vundle#begin()
 Plugin 'gmarik/vundle'        " let Vundle manage Vundle
 
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'airblade/vim-gitgutter'
 Plugin 'hallison/vim-markdown'
 Plugin 'elzr/vim-json'
 Plugin 'Valloric/YouCompleteMe'
