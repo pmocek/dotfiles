@@ -16,6 +16,7 @@ Plugin 'bling/vim-airline'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'hallison/vim-markdown'
+Plugin 'scrooloose/syntastic'
 Plugin 'elzr/vim-json'
 Plugin 'Valloric/YouCompleteMe'
 call vundle#end()
