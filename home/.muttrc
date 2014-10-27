@@ -351,12 +351,6 @@ bind pager G bottom	# just like vi and less
 # <command> is executed when sending mail to an address matching <pattern>
 
 #send-hook mutt- 'set signature=~/.sigmutt; my_hdr From: Mutt User <user@example.com>'
-send-hook submit.Bp3peqm5PNLxUECJ@spam.spamcop.net 'unset pgp_autosign ; unset askcc ; set editor=/bin/true ; my_hdr Fcc: /dev/null'
-send-hook seattlebook\.com          'set signature=~/.signature-rosetta; my_hdr From: Phil Mocek <phil.mocek@rosettasolutions.com>'
-send-hook rosettasolutions\.com     'set signature=~/.signature-rosetta; my_hdr From: Phil Mocek <phil.mocek@rosettasolutions.com>'
-send-hook rosetta@quantumlinux\.com 'set signature=~/.signature-rosetta; my_hdr From: Phil Mocek <phil.mocek@rosettasolutions.com>'
-send-hook support@fibercloud        'set signature=~/.signature-rosetta; my_hdr From: Phil Mocek <phil.mocek@rosettasolutions.com>'
-send-hook netgalley\.com            'set signature=~/.signature-netgalley; my_hdr From: Phil Mocek <phil.mocek@netgalley.com>'
 
 ## # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ## #
