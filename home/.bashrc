@@ -83,6 +83,9 @@ fi
 alias ll='ls -alFrt'
 alias la='ls -A'
 alias l='ls -CF'
+alias donatello1='ssh -A root@54.208.175.15 -t ssh root@10.0.11.196'
+alias donatello2='ssh -A root@54.208.175.15 -t ssh root@10.0.12.127'
+alias samuraidb='ssh -A root@54.208.175.15 -t ssh root@10.0.11.218'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
