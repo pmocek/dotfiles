@@ -30,6 +30,7 @@ else
   set background=dark
 endif
 colorscheme solarized
+set t_Co=256
 
 :set tabstop=4
 :set shiftwidth=4
