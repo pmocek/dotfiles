@@ -125,3 +125,5 @@ complete -C aws_completer aws
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
 
 source "$HOME/.homesick/repos/homeshick/completions/homeshick-completion.bash"
+PERL_MB_OPT="--install_base \"/home/pmocek/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/home/pmocek/perl5"; export PERL_MM_OPT;
