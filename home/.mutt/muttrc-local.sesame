@@ -1,0 +1,69 @@
+# from <http://www.8t8.us/mutt/>
+set my_imap_server="imap.gmail.com"
+set my_smtp_server="smtp.gmail.com"
+set my_user="pmocek@sesamecommunications.com"
+set hostname="sesamecommunications.com"
+set use_domain
+set imap_user=$my_user
+
+#
+# This is who I am
+#
+set from="pmocek@sesamecommunications.com"
+set realname="Phil Mocek"
+
+#
+# Default location of mailboxes
+#
+set folder="imaps://$imap_user@$my_imap_server/"
+
+set spoolfile="+INBOX"
+set record="+[Gmail]/Sent Mail"
+set postponed="+[Gmail]/Drafts"
+
+
+
+###########################################
+# IMAP settings
+#
+
+#
+# Header and body caching
+# see <http://www.mutt.org/doc/devel/manual.html#caching>
+#
+set header_cache=~/.mutt/cache
+set message_cachedir=~/.mutt/cache
+
+# activate TLS if available on the server
+set ssl_starttls=yes
+
+# always use SSL when connecting to a server
+set ssl_force_tls=yes
+
+# Don't wait to enter mailbox manually 
+unset imap_passive        
+
+# Automatically poll subscribed mailboxes for new mail (new in 1.5.11)
+unset imap_check_subscribed
+
+# Reduce polling frequency to a sane level
+set mail_check=60
+
+# And poll the current mailbox more often (not needed with IDLE in post 1.5.11)
+set timeout=10
+
+# Display download progress every 5K
+set net_inc=25
+
+#
+# SMTP server to relay to
+#
+# NOTE: to get this to work, I had to install the libsasl2-modules package
+set smtp_url="smtps://$my_user@$my_smtp_server/"
+
+#
+# Mailboxes to monitor for mail
+# (arranged in urgency reading order)
+#
+mailboxes +INBOX
+
