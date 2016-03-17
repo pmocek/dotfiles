@@ -19,6 +19,7 @@ Plugin 'elzr/vim-json'
 Plugin 'hallison/vim-markdown'
 Plugin 'scrooloose/syntastic'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'godlygeek/tabular'
 call vundle#end()
 
 filetype plugin indent on     " required by Vundle
