@@ -18,7 +18,6 @@ set realname="Phil Mocek"
 set folder="imaps://$imap_user@$my_imap_server/"
 
 set spoolfile="+INBOX"
-set record="+[Gmail]/Sent Mail"
 set postponed="+[Gmail]/Drafts"
 
 
@@ -55,11 +54,14 @@ set timeout=10
 # Display download progress every 5K
 set net_inc=25
 
+source ~/.mutt/imap-secret.sesame
+
 #
 # SMTP server to relay to
 #
 # NOTE: to get this to work, I had to install the libsasl2-modules package
 set smtp_url="smtps://$my_user@$my_smtp_server/"
+source ~/.mutt/smtp-secret.sesame
 
 #
 # Mailboxes to monitor for mail
