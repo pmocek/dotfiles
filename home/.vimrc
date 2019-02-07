@@ -1,16 +1,16 @@
 set nocompatible              " be iMproved
 filetype off                  " required by Vundle
 
-if !isdirectory(expand("~/.vim/bundle/vundle/.git"))
-    !git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+if !isdirectory(expand("~/.vim/bundle/Vundle.vim/.git"))
+    !git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 endif
 
 " set the runtime path to include Vundle and initialize
-set runtimepath+=~/.vim/bundle/vundle
+set runtimepath+=~/.vim/bundle/Vundle.vim
 
 " Vundle-managed plugins
 call vundle#begin()
-Plugin 'gmarik/vundle'        " let Vundle manage Vundle
+Plugin 'VundleVim/Vundle.vim' " let Vundle manage Vundle
 
 Plugin 'bling/vim-airline'
 Plugin 'altercation/vim-colors-solarized'
